@@ -1,0 +1,54 @@
+{
+  "name": "fortune-postgres",
+  "description": "Postgres adapter for Fortune.",
+  "version": "1.4.3",
+  "license": "MIT",
+  "author": {
+    "email": "0x8890@airmail.cc",
+    "url": "http://0x8890.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fortunejs/fortune-postgres"
+  },
+  "scripts": {
+    "lint": "eslint lib test",
+    "test": "npm run lint && node test",
+    "postpublish": "git tag `npm v fortune-postgres version` && git push origin --tags"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {
+    "pg": "6.0.3"
+  },
+  "optionalDependencies": {
+    "pg-native": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-config-boss": "^1.0.4",
+    "fortune": "^4.1.9",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.5.4",
+    "tapdance": "^4.1.2"
+  },
+  "files": [
+    "lib/",
+    "LICENSE"
+  ],
+  "eslintConfig": {
+    "extends": "boss",
+    "rules": {
+      "strict": 0
+    }
+  },
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "keywords": [
+    "fortune",
+    "postgres",
+    "postgresql",
+    "sql",
+    "adapter"
+  ]
+}
