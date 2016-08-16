@@ -19,9 +19,6 @@
   "dependencies": {
     "mysql": "^2.11.1"
   },
-  "optionalDependencies": {
-    "pg-native": "^1.10.0"
-  },
   "devDependencies": {
     "eslint": "^3.2.2",
     "eslint-config-boss": "^1.0.4",
