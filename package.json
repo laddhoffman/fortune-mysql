@@ -17,7 +17,7 @@
   },
   "main": "./lib/index.js",
   "dependencies": {
-    "pg": "6.0.3"
+    "mysql": "^2.11.1"
   },
   "optionalDependencies": {
     "pg-native": "^1.10.0"
