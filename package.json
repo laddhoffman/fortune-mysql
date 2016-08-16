@@ -1,11 +1,10 @@
 {
-  "name": "fortune-postgres",
-  "description": "Postgres adapter for Fortune.",
-  "version": "1.4.3",
+  "name": "fortune-mysql",
+  "description": "MySQL adapter for Fortune.",
+  "version": "0.0.1",
   "license": "MIT",
   "author": {
-    "email": "0x8890@airmail.cc",
-    "url": "http://0x8890.com"
+    "email": "laddhoffman@gmail.com"
   },
   "repository": {
     "type": "git",
